@@ -1,0 +1,91 @@
+/*
+DARK COLOUR: #005ba5
+LIGHT COLOUR: #44abff
+*/
+
+html, body {
+	margin: 0 auto;
+	font-family: Arial, Helvetica, Sans-Serif;
+	height: 100%;
+	width: 100%;
+	text-align: left;
+	background-color: #f8f5ec;
+	background-size: 90%;
+}
+
+.allContent {
+	padding-top: 150px;
+	padding-bottom: 60px;
+}
+
+.content {
+	display: block;
+	background-color:#ffffff;
+	padding: 3px 0 20px 0;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.spacer {
+	padding-bottom: 30px;
+}
+
+a:link {
+	/* unvisited link */
+	color: #44abff;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #44abff;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #005ba5;
+	text-decoration: none;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+a:active {
+	/* on the click */
+	color: #005ba5;
+	text-decoration: none;
+}
+
+h1 {
+	color: #005ba5;
+	font-size: 2em;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	text-transform: uppercase;
+}
+
+h2 {
+	padding-left: 3%;
+	font-size: 21px;	
+	opacity: 1;
+	color: #44abff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+p {
+	padding-left: 3%;
+	padding-right: 3%;
+	margin: 10px 0 0 0;
+	font-size: 16px;
+	color: #005ba5;	
+	opacity: 1;
+}
+
+h3 {
+	padding-left: 3%;
+	font-size: 16px;	
+	opacity: 1;
+	color: #44abff;
+	font-weight: bold;
+	text-transform: uppercase;
+}

@@ -1,0 +1,22 @@
+<!--
+NOTES:
+	This index.html is used to redirect to the main index.html inside of the /store/ directory.
+	This is used because document root paths do not work locally, so we are using up-one-level paths.
+	Moving the main index.html allows us to keep all paths as an up-one-level path instead of current-level paths in the main file, and up-one-level paths in the other files.
+-->
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Redirecting... J3 Groceries</title>
+		<meta charset="UTF-8">
+		<script type="text/javascript">
+			window.location.href = "store/index.html"
+		</script>
+		<meta http-equiv="refresh" content="1; url=store/index.html">
+	</head>
+	
+	<body>
+		If you are not redirected automatically, <a href='store/index.html'>click this link</a> to reach your desired destination.
+	</body>
+</html>

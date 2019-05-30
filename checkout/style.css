@@ -1,0 +1,168 @@
+#mainContents {
+	margin: 0 auto;
+}
+
+.mainTableCell {
+	vertical-align: top;
+}
+
+#mainTableCell1 {
+	width: 400px;
+	background-color: #ffffff;
+	padding-bottom: 15px;
+}
+
+#mainTableCell2 {
+	padding-left: 20px;
+}
+
+#checkoutError {
+	display: none;
+	padding-left: 30px;
+	padding-bottom: 10px;
+	font-size: 0.8em;
+	color: #ff0000;
+}
+
+.requiredStar {
+	color: #ff0000;
+	padding-left: 5px;
+}
+
+.fieldName {
+	display: inline-block;
+	padding-bottom: 5px;
+}
+
+#checkoutForm {
+	padding-left: 5%;
+	padding-right: 100px;
+}
+
+#checkoutForm input[type=text] {
+	font-size: 12px;
+	color: #353535;
+	width: 300px;
+	border-radius: 15px;
+	border: 1px solid #005ba5;
+	padding: 10px 20px 10px 20px;
+	top: 0;
+	left: 0;
+	z-index: 5;
+}
+
+#checkoutForm #cardNumber {
+	width: 130px;
+}
+
+#checkoutForm #name {
+	width: 200px;
+}
+
+#checkoutForm  #expiryMonth, #checkoutForm #expiryYear {
+	display: inline-block;
+	width: 20px;
+}
+
+#checkoutForm #cvv {
+	width: 24px;
+}
+
+#checkoutForm input[type=button] {
+	border-radius: 15px;
+	border: none;
+	padding: 8px 25px 8px 25px;
+	cursor: pointer;
+	background-color: #005ba5;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.backToHomeDiv {
+	padding-left: 100px;
+	padding-top: 20px;
+}
+
+.backToHomeButton {
+	border-radius: 15px;
+	border: none;
+	font-size: 14px;
+	padding: 8px 25px 8px 25px;
+	cursor: pointer;
+	background-color: #005ba5;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.backToHomeButton:hover {
+	color: #44abff;
+	transition: 0.5s;
+}
+
+#cartDetails {
+	background-color: #ffffff;
+	padding: 10px 10px 10px 10px;
+}
+
+#cartDetailsNumberOfItems {
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+#cartDetailsSubtotalHeading, #cartDetailsTotalHeading {
+	font-weight: bold;
+}
+
+#cartDetailsSubtotalAmount, #cartDetailsTotalAmount {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+#cartDetailsSubtotalAmount, #cartDetailsDeliveryFeeAmount, #cartDetailsHSTAmount, #cartDetailsTotalAmount {
+	text-align: right;
+}
+
+.cartDetailsButton {
+	text-align: center;
+}
+
+#cartKeepShoppingButtonCell {
+	padding-bottom: 5px;
+}
+
+#keepShoppingButton {
+	border-radius: 15px;
+	border: none;
+	padding: 10px 25px 10px 25px;
+	cursor: pointer;
+	background-color: #44abff;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+#keepShoppingButton:hover {
+	color: #005ba5;
+	transition: 0.5s;
+}
+
+#cartDetailsLearnMore {
+	text-align: center;
+	font-size: 0.8em;
+	color: #959595;
+}
+
+#lockIcon {
+	width: 14px;
+	height: 14px;
+	padding-right: 3px;
+}
+
+#cartDetailsSecureCheckout {
+	text-align: center;
+	font-weight: bold;
+	font-size: 0.95em;
+	color: #959595;
+}

@@ -1,0 +1,20 @@
+.button {
+	padding-top: 5px;
+	text-align: center;
+}
+
+#aodaButton {
+	font-size: 11px;
+	border-radius: 15px;
+	border: none;
+	padding: 8px 25px 8px 25px;
+	cursor: pointer;
+	background-color: #44abff;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+#aodaButton:hover {
+	color: #005ba5;
+	transition: 0.5s;
+}

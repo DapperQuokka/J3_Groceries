@@ -1,0 +1,98 @@
+#itemTable {
+	text-align: center;
+	background-color: #ffffff;
+	border-collapse: collapse;
+	margin: auto;
+	width: 80%;
+}
+
+#pictureTD {
+	width: 420px;
+	height: 420px;
+}
+
+#itemTable td {
+	position: relative;
+	text-align: left;
+	vertical-align: top;
+}
+
+#itemTable, #itemTable tr, #itemTable td {
+	border: 1px solid black;
+}
+
+.itemPictureDiv {
+	padding: 10px 10px 10px 10px;
+}
+
+.itemPicture {
+	width: 400px;
+	height: 400px;
+}
+
+.itemInfoTD {
+	padding-left: 20px;
+	padding-top: 5px;
+}
+
+.itemInfo {
+	width: 100%;
+	vertical-align: top;
+	padding-top: 10px;
+}
+
+.itemID {
+	padding-right: 5px;
+	font-size: 0.75em;
+	font-weight: bold;
+}
+
+.itemName {
+	color: #005ba5;
+	font-size: 1.8em;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-right: 5px;
+	padding-top: 2px;
+}
+
+.itemDescription {
+	font-size: 1em;
+	font-style: italic;
+	text-align: left;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+
+.itemPrice {
+	color: #44abff;
+	font-size: 1.6em;
+	font-weight: bold;
+	padding-right: 5px;
+	padding-top: 30px;
+}
+
+.itemCartManage {
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 20px;
+	position: absolute;
+}
+
+.quantityChanger {
+	padding-top: 0;
+	margin-top: 0;
+	text-align: left;
+}
+
+.itemDetails {
+	padding-top: 80px;
+}
+
+.category, .manufacturer {
+	font-size: 0.8em;
+	padding-right: 5px;
+}
+.allContent {
+	padding-bottom: 150px;
+}

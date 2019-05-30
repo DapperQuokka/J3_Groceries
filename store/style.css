@@ -1,0 +1,385 @@
+/*
+DARK COLOUR: #005ba5
+LIGHT COLOUR: #44abff
+*/
+
+/* Link Formatting
+------------------------------- */
+
+a:link {
+	/* unvisited link */
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #44abff;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+a:active {
+	/* on the click */
+	color: #44abff;
+	text-decoration: none;
+}
+
+/* Page-wide Formatting
+------------------------------- */
+
+html, body {
+	margin: 0 auto;
+	font-family: Arial, Helvetica, Sans-Serif;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	background-color: #f8f5ec;
+	background-size: 90%;
+}
+
+/* -------------------------------
+TOP BAR AND PRODUCT BROWSE BAR FORMATTING IN commonStyle.css
+------------------------------- */
+
+/* Header Formatting
+------------------------------- */
+
+#header {
+	padding-top: 128px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+	background-image: url("../img/bread_header.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: scroll;
+	background-size: cover;
+	text-transform: uppercase;
+	max-width: 100%;
+	height: 50vh;
+	text-align: center;
+}
+
+#headerText {
+	text-align: center;
+	width: 100%;
+	height: auto;
+	font-size: 2.5em;
+	color: #005ba5;
+	margin: 0 auto;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+#headerButton {
+	border-radius: 15px;
+	border: none;
+	padding: 10px 25px 10px 25px;
+	cursor: pointer;
+	background-color: #44abff;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+#headerButton:hover {
+	color: #005ba5;
+	transition: 0.5s;
+}
+
+/* Sections Common CSS
+------------------------------- */
+
+#quickPromo, #featuredItems, #freshlyBaked, #testimonials, #suggestProducts {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.sectionTitle {
+	color: #005ba5;
+	text-transform: uppercase;
+	font-size: 2em;
+}
+
+.sectionSubtitle {
+	margin-top: -18px;
+	font-size: 0.95em;
+	font-style: italic;
+}
+
+/* Quick Promo Formatting
+------------------------------- */
+
+
+/* Featured Items Formatting
+------------------------------- */
+
+#featuredItems {
+	text-align: center;
+}
+
+#featuredItemsTable {
+	text-align: center;
+	background-color: #ffffff;
+	border-collapse: collapse;
+	margin: auto;
+}
+
+#featuredItemsTable td {
+	height: 300px;
+	width: 200px;
+	position: relative;
+	text-align: center;
+}
+
+#featuredItemsTable, #featuredItemsTable tr, #featuredItemsTable td {
+	border: 1px solid black;
+}
+
+.itemPictureDiv {
+	padding-bottom: 10px;
+	position: absolute;
+	top: 10px;
+	left: 0;
+	right: 0;
+}
+
+.itemPicture {
+	width: 100px;
+	height: 100px;
+}
+
+.itemPicture:hover {
+	cursor: pointer;
+}
+
+.itemInfo {
+	width: 100%;
+	position: absolute;
+	top: 120px;
+	text-align: center;
+}
+
+.itemName {
+	color: #000000;
+	font-size: 0.95em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.itemName:hover {
+	cursor: pointer;
+}
+
+.itemDescription {
+	font-size: 0.75em;
+	font-style: italic;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.itemPrice {
+	color: #44abff;
+	font-size: 1.55em;
+	font-weight: bold;
+	position: absolute;
+	bottom: 42px;
+	right: 20px;
+}
+
+.itemCartManage {
+	text-align: center;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+
+/* Freshly Baked Items Formatting
+------------------------------- */
+
+#freshlyBaked {
+	text-align: center;
+}
+
+#freshlyBakedItemsTable {
+	text-align: center;
+	background-color: #ffffff;
+	border-collapse: collapse;
+	margin: auto;
+}
+
+#freshlyBakedItemsTable td {
+	height: 300px;
+	width: 200px;
+	position: relative;
+	text-align: center;
+}
+
+#freshlyBakedItemsTable, #freshlyBakedItemsTable tr, #freshlyBakedItemsTable td {
+	border: 1px solid black;
+}
+
+/* Testimonials Formatting
+------------------------------- */
+
+.hideable {
+  display: none;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 20px;
+	background-color: #ffffff;
+	width: 90%;
+	padding-top: 70px;
+}
+
+.carousel ul {
+	background-color: #ffffff;
+	display: inline-block;
+	padding: 0 0 0 0;
+	height: 200px;
+	width: 400px;
+	align-items: stretch;
+	vertical-align: middle;
+	color: #000000;
+}
+
+.carouselButton {
+	display: inline-block;
+	background: #ffffff;
+	color: #000000;
+	border: none;
+	font-size: 50px;
+	height: 100%;
+	width: 50px;
+	padding: 0 0 0 0;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+}
+
+#backButton {
+	margin-right: -5px;
+	height: 200px;
+}
+
+#nextButton {
+	margin-left: -5px;
+	height: 200px;
+}
+
+.carousel {
+  align-items: stretch;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.testimonialQuote {
+	font-size: 0.85em;
+	padding-top: 25%
+}
+
+/* Suggest Items Formatting
+------------------------------- */
+
+#suggestProductText {
+	padding-bottom: 5px;
+}
+
+#suggestProductButton {
+	border-radius: 15px;
+	border: none;
+	padding: 10px 25px 10px 25px;
+	cursor: pointer;
+	background-color: #005ba5;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+#suggestProductButton:hover {
+	color: #44abff;
+	transition: 0.5s;
+}
+
+/* -------------------------------
+FOOTER FORMATTING IN commonStyle.css
+------------------------------- */
+
+/* Shop Now Button Formatting
+------------------------------- */
+
+.shopNowCartIcon {
+	width: 20px;
+	height: 20px;
+	padding-right: 5px;
+}
+
+.shopNowButton {
+	border-radius: 15px;
+	border: none;
+	padding: 10px 25px 10px 25px;
+	cursor: pointer;
+	background-color: #005ba5;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.shopNowButton:hover {
+	color: #44abff;
+	transition: 0.5s;
+}
+
+/* -------------------------------
+ADD TO CART BUTTON AND QUANTITY ADJUSTER FORMATTING IN commonStyle.css
+------------------------------- */
+
+/* See All Link Formatting
+------------------------------- */
+
+.seeAllLink:link {
+	/* unvisited link */
+	color: #44abff;
+	text-decoration: none;
+}
+
+.seeAllLink:visited {
+	color: #44abff;
+	text-decoration: none;
+}
+
+.seeAllLink:hover{
+	color: #005ba5;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.seeAllLink:active {
+	/* on the click */
+	color: #005ba5;
+	text-decoration: none;
+}
+
+.seeAllDiv {
+	margin-top: -2px;
+	padding-bottom: 15px;
+}
+
+.seeAllLink {
+	font-size: 0.95em;
+	font-weight: bold;
+}
+
+
+
+
+
+

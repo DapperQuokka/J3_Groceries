@@ -1,0 +1,462 @@
+/*
+DARK COLOUR: #005ba5
+LIGHT COLOUR: #44abff
+*/
+
+/* Shopping Cart and Footer Link Formatting
+------------------------------- */
+
+#shoppingCart a:link, #footer a:link {
+	/* unvisited link */
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#shoppingCart a:visited, #footer a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#shoppingCart a:hover, #footer a:hover {
+	color: #44abff;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+#shoppingCart a:active, #footer a:active {
+	/* on the click */
+	color: #44abff;
+	text-decoration: none;
+}
+
+/* Fixed Position Bar
+------------------------------- */
+
+#fixedPositionBar {
+	display: block;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+/* Top Bar Formatting
+------------------------------- */
+
+#topBar {
+	display: block;
+	background-color: #005ba5;
+	color: #ffffff;
+	width: 100%;
+	height: 100px;
+	overflow: visible;
+	text-align: center;
+	margin: 0 auto;
+	white-space: nowrap;
+}
+
+#topBarTable {
+	margin: 0 auto;
+	vertical-align: middle;
+	padding-top: 5px;
+}
+
+#topBarTable td {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.topBarElement {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.topBarLogo {
+	width: 200px;
+	height: 80px;
+}
+
+#searchBar input[type="search"] {
+	font-size: 0.75em;
+	color: #353535;
+	width: 300px;
+	border-radius: 15px;
+	border: none;
+	padding-left: 20px;
+	padding-right: 33.688px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	top: 3px;
+	left: 0;
+	z-index: 0;
+	position: relative;
+}
+
+#searchBar input[type="submit"] {
+	vertical-align: middle;
+	margin-left: -34px;
+	margin-top: 5px;
+	height: 20px;
+	width: 20px;
+	background: url("img/searchIcon.png") no-repeat;
+	background-size: 20px 20px;
+	border: none;
+	cursor: pointer;
+	position: relative;
+	z-index: 100;
+}
+
+.topBarCustomerSupportIcon {
+	width: 70px;
+	height: 70px;
+}
+
+.shoppingCartIcon {
+	width: 20px;
+	height: 20px;
+	left: 5;
+}
+
+#shoppingCart {
+	text-align: left;
+	padding-top: 5px;
+	padding-left: 5.5%;
+	width: 250px;
+}
+
+#cartDropdown {
+	table-layout:fixed;
+	width:200px;
+	margin-top: -10px;
+	z-index: 150;
+	position: inline-block;
+	text-align: center;
+}
+
+#cartDropdownArrow {
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.25s linear;
+	transition-timing-function: ease-in;
+	transition-timing-function: ease-out;
+	position: absolute;
+	left: 63%;
+	width: 0;
+	height: 0;
+	border-top: none;
+	border-bottom: 10px solid #f2f2f2;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	margin-top: 20px;
+}
+
+#cartDropdown {
+	margin-top: -10px;
+	z-index: 150;
+	position: inline-block;
+	text-align: center;
+}
+
+#cartDropdownContent {
+	display: block;
+	text-align: center;
+	padding-top: 0;
+	padding-bottom: 5px;
+	margin: 36px 0 auto 0;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.25s linear;
+	transition-timing-function: ease-in;
+	transition-timing-function: ease-out;
+	position: absolute;
+	left: 60%;
+	background-color: #f2f2f2;
+	min-width: 170px;
+	box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+	z-index: 50;
+}
+
+.viewFullCartButton {
+	border-radius: 15px;
+	border: none;
+	padding: 7px 15px 7px 15px;
+	cursor: pointer;
+	background-color: #005ba5;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 0.75em;
+}
+
+.viewFullCartButton:hover {
+	color: #44abff;
+	transition: 0.5s;
+}
+
+#itemAdded {
+	color: #000000;
+	display: inline-block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 0.95em;
+}
+
+#cartDropdownContentTable {
+	color: #000000;
+	padding-top: 10px;
+	margin: auto;
+	align-content: center;
+	display: block;
+}
+
+#cartDropdownContentTable td {
+	max-width: 175px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.cartDropdownPicture {
+	width: 100px;
+	height: 100px;
+}
+
+#cartDropdownTableItem {
+	text-transform: uppercase;
+	font-size: 0.8em;
+	font-weight: bold;
+	vertical-align: middle;
+	width: 100px;
+	white-space: pre-line;
+}
+
+.cartDropdownItemPrice {
+	font-size: 0.75em;
+	color: #005ba5;
+	font-weight: normal;
+}
+
+#cartDropdownTableQuantity, #cartDropdownTableTotalPrice {
+	font-weight: bold;
+}
+
+/* Product Browser Dropdown Formatting
+------------------------------- */
+
+#dropdownContainer {
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #ffffff;
+	width: 100%;
+	height: 28px;
+	color: #44abff;
+	white-space: nowrap;
+	text-align: center;
+}
+
+#browseBy {
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.dropbtn  {
+	background-color: #ffffff; 
+	color: #000000;
+	padding: 5px 10px 5px 10px;
+	font-size: 1em;
+	border: none;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	visibility: hidden;
+	opacity: 0;
+	transition: .25s linear;
+	transition-timing-function: ease-in;
+	transition-timing-function: ease-out;
+	position: absolute;
+	right: 0;
+	background-color: #f2f2f2;
+	min-width: 160px;
+	border: 1px solid #353535;
+	box-shadow: 2px 2px 1px rgba(0,0,0,0.5);
+	left: 0;
+}
+
+.dropdown-content a:link, .dropdown-content a:visited {
+	color: #000000;
+	padding: 12px 16px;
+	text-decoration: none;
+	font-size: 0.75em;
+	display: block;
+}
+
+.dropdown-content a:hover, .dropdown-content a:active {
+	transition: 0.5s;
+	color: #44abff;
+	display: block;
+}
+
+.dropdown:hover .dropdown-content {
+	visibility: visible;
+	opacity: 1;
+}
+
+.dropdown:hover .dropbtn { 
+	transition: 0.5s;
+	padding: 5px 10px 5px 10px;
+	color: #44abff;
+	cursor: pointer;
+}
+
+.arrowIcon {
+	width: 10px;
+	height: 10px;
+}
+
+/* Footer Formatting
+------------------------------- */
+
+#footer {
+	background-color: #005ba5;
+	text-align: center;
+	font-size: 1em;
+}
+
+#footerMainTable {
+	padding-top: 30px;
+	text-align: left;
+	margin-left: auto; 
+	margin-right: auto;
+	padding-bottom: 3px;
+}
+
+th {
+	padding-bottom: 10px;
+	color: #44abff;
+	text-transform: uppercase;
+}
+
+#footerMainTable td, #footerPolicyTable td {
+	padding-bottom: 5px;
+	padding-right: 50px;
+	color: #ffffff;
+}
+
+.mainTableLastColumnItem {
+	padding-right: 0px;
+	padding-left: 10px;
+}
+
+#footerPolicyTable {
+	margin-left: auto; 
+	margin-right: auto;
+	font-size: 0.75em;
+}
+
+.policyTableItem {
+	padding-right: 50px;
+	padding-left: 0px;
+}
+
+.policyTableLastColumnItem {
+	padding-right: 0;
+}
+
+#footerCopyright {
+	padding-top: 5px;
+	font-size: 0.95em;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+#footerLogoDiv {
+	padding-bottom: 5px;
+}
+
+#footerLogo {
+	padding-top: 8px;
+	width: 100px;
+	height: 40px;
+}
+
+/* Add To Cart Button Formatting
+------------------------------- */
+
+.addToCartButton {
+	border-radius: 15px;
+	border: none;
+	padding: 10px 25px 10px 25px;
+	cursor: pointer;
+	background-color: #005ba5;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.addToCartButton:hover {
+	color: #44abff;
+	transition: 0.5s;
+}
+
+/* Quantity Adjuster Formatting
+------------------------------- */
+
+.quantityChanger {
+	padding-top: 10px;
+	text-align: right;
+}
+
+.quantityMinusButton {
+	border-radius: 15px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border: none;
+	padding: 11.75px 15px 8px 15px;
+	cursor: pointer;
+	background-color: #005ba5;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.quantityMinusButton:hover {
+	color: #44abff;
+	transition: 0.5s;
+}
+
+.quantityField {
+	margin: 0 0 0 0;
+	padding: 5px 0px 5px 0px;
+	background-color: #ffffff;
+	color: #44abff;
+	text-align: center;
+	font-size: 1.1em;
+	width: 45px;
+}
+
+.quantityPlusButton {
+	border-radius: 15px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border: none;
+	padding: 11.75px 15px 8px 15px;
+	cursor: pointer;
+	background-color: #005ba5;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.quantityPlusButton:hover {
+	color: #44abff;
+	transition: 0.5s;
+}
+
+.max9999Alert {
+	display: none;
+	padding-top: 3px;
+	font-size: 0.75em;
+	text-align: center;
+}

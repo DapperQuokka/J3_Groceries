@@ -1,0 +1,64 @@
+// ID,Name,Category,Manufacturer,Description,Price,Image
+// DO NOT USE COMMAS IN THE DESCRIPTIONS
+
+T-01,JSaurus Plushie,Toys,J3 Toys,The one and only JSaurus.,19.99,img/products/T-01.png
+
+FRU-01,Red Delicious Apples (pack of 10),Fruits,J3 Farms,10 hand-picked Red Delicious apples from J3 Farms.,4.99,/img/products/FRU-01.png
+FRU-02,Golden Delicious Apples (pack of 10),Fruits,J3 Farms,10 hand-picked Golden Delicious apples from J3 Farms.,4.99,/img/products/FRU-02.png
+FRU-03,Gala Apples (pack of 10),Fruits,J3 Farms,10 hand-picked Gala apples from J3 Farms.,4.99,/img/products/FRU-03.png
+FRU-04,Fuji Apples (pack of 10),Fruits,J3 Farms,10 hand-picked Fuji apples from J3 Farms.,4.99,/img/products/FRU-04.png
+FRU-05,Granny Smith Apples (pack of 10),Fruits,J3 Farms,10 hand-picked Granny Smith apples from J3 Farms.,4.99,/img/products/FRU-05.png
+FRU-06,Bananas,Fruits,J3 Farms,Fresh bananas from J3 Farms.,2.99,/img/products/FRU-06.png
+FRU-07,Oranges,Fruits,J3 Farms,Fresh oranges from J3 Farms.,2.99,/img/products/FRU-07.png
+FRU-08,Dragon Fruit,Fruits,J3 Farms,Fresh dragon fruit from J3 Farms.,2.99,/img/products/FRU-08.png
+FRU-09,Peach,Fruits,J3 Farms,Fresh peach from J3 Farms.,2.99,/img/products/FRU-09.png
+FRU-10,Strawberries,Fruits,J3 Farms,Fresh strawberries from J3 Farms.,2.99,/img/products/FRU-10.png
+FRU-11,Watermelon,Fruits,J3 Farms,Fresh watermelon from J3 Farms.,2.99,/img/products/FRU-11.png
+
+B-01,Freshly Baked White Bread,Bakery,J3 Bakery,One loaf of white bread freshly baked on premises.,2.99,/img/products/B-01.png
+B-02,Freshly Baked Whole Grain Bread,Bakery,J3 Bakery,One loaf of whole grain bread freshly baked on premises.,2.99,/img/products/B-02.png
+B-03,Freshly Baked Carrot Muffins (pack of 10),Bakery,J3 Bakery,10 carrot muffins freshly baked on premises.,4.99,/img/products/B-03.png
+B-04,Freshly Baked Chocolate Muffins (pack of 10),Bakery,J3 Bakery,10 chocolate muffins freshly baked on premises.,4.99,/img/products/B-04.png
+B-05,Freshly Baked Blueberry Muffins (pack of 10),Bakery,J3 Bakery,10 blueberry muffins freshly baked on premises.,4.99,/img/products/B-05.png
+
+C-01,Skittles Original,Candy,Skittles,The original Skittles fruit candy.,3.99,/img/products/C-01.png
+C-02,Skittles Tropical,Candy,Skittles,Tropical flavoured Skittles fruit candy.,3.99,/img/products/C-02.png
+C-03,Skittles Wild Berry,Candy,Skittles,Wild berry flavoured Skittles fruit candy.,3.99,/img/products/C-03.png
+C-04,Skittles Sour,Candy,Skittles,Sour flavoured Skittles fruit candy.,3.99,/img/products/C-04.png
+C-05,Twizzlers Strawberry,Candy,Twizzlers,Strawberry flavoured Twizzlers original licorice candy.,3.99,/img/products/C-05.png
+C-06,Twizzlers Cherry Nibs,Candy,Twizzlers,Cherry flavoured Twizzlers Nibs licorice candy.,3.99,/img/products/C-06.png
+
+V-01,Kale,Vegetables,J3 Farms,Freshly picked kale from the grounds of J3 Farms.,2.99,/img/products/V-01.png
+V-02,Cucumbers (pack of 3),Vegetables,J3 Farms,Freshly harvested cucumbers from J3 Farms.,2.99,/img/products/V-02.png
+V-03,White Potatoes (1LB bag),Vegetables,J3 Farms,1LB of freshly harvested potatoes from J3 Farms.,3.99,/img/products/V-03.png
+V-04,Mini Carrots (1LB bag),Vegetables,J3 Farms,1LB of freshly havested mini carrots from J3 Farms.,1.99,/img/products/V-04.png
+V-05,Carrots (2LB bag),Vegetables,J3 Farms,2LB of freshly harvested carrots from J3 Farms.,2.99,/img/products/V-05.png
+V-06,Celery,Vegetables,J3 Farms,Freshly picked celery from the grounds of J3 Farms.,1.99,/img/products/V-06.png
+V-07,Romaine Lettuce,Vegetables,J3 Farms,Freshly picked romaine lettuce from the grounds of J3 Farms.,1.99,/img/products/V-07.png
+V-08,Spanish Onions (1LB bag),Vegetables,J3 Farms,1LB of freshly harvested spanish onions from J3 Farms.,2.99,/img/products/V-08.png
+
+D-01,Butter,Dairy,J3 Farms,Freshly made butter from the cows at J3 Farms.,5.99,/img/products/D-01.png
+D-02,2% Milk,Dairy,J3 Farms,Freshly milked 2% milk straight from the utters of our cows at J3 Farms.,10.99,/img/products/D-02.png
+D-03,Cheddar Cheese,Dairy,J3 Farms,Freshly curdled cheddar cheese from the milk of our cows at J3 Farms.,5.99,/img/products/D-03.png
+D-04,Mozzarella Cheese,Dairy,J3 Farms,Freshly curdled mozzerella cheese from the milk of our cows at J3 Farms.,5.99,/img/products/D-04.png
+D-05,Swiss Cheese,Dairy,J3 Farms,Freshly curdled swiss cheese from the milk of our cows at J3 Farms.,5.99,/img/products/D-05.png
+D-06,Goat Cheese,Dairy,J3 Farms,Freshly curdled goat cheese from the milk of our goats at J3 Farms.,5.99,/img/products/D-06.png
+
+M-01,Beef,Meat,J3 Farms,Freshly slaughtered beef from the cows at J3 Farms.,10.99,/img/products/M-01.png
+M-02,Lamb,Meat,J3 Farms,Freshly slaughtered lamb from the lambs at J3 Farms.,10.99,/img/products/M-02.png
+M-03,Chicken,Meat,J3 Farms,Freshly slaughtered chicken from the chickens at J3 Farms.,10.99,/img/products/M-03.png
+M-04,Pork,Meat,J3 Farms,Freshly slaughtered pork from the pigs at J3 Farms.,10.99,/img/products/M-04.png
+M-05,Entire Cow,Meat,J3 Farms,Entire slaughtered cow from J3 Farms.,99.99,/img/products/M-05.png
+
+S-01,Salmon,Seafood,J3 Farms,Freshly hand-picked salmon from the sea god Poseidon.,10.99,/img/products/S-01.png
+S-02,Tuna,Seafood,J3 Farms,Freshly hand-picked tuna from the sea god Poseidon.,10.99,/img/products/S-02.png
+S-03,Cod,Seafood,J3 Farms,Freshly hand-picked cod from the sea god Poseidon.,10.99,/img/products/S-03.png
+S-04,Trout,Seafood,J3 Farms,Freshly hand-picked trout from the sea god Poseidon.,10.99,/img/products/S-04.png
+S-05,Crab,Seafood,J3 Farms,Freshly hand-picked crab from the sea god Poseidon.,10.99,/img/products/S-05.png
+S-06,Lobster,Seafood,J3 Farms,Freshly hand-picked lobster from the sea god Poseidon.,10.99,/img/products/S-06.png
+
+FRO-01,Vanilla Ice Cream,Frozen,J3 Farms,Freshly made vanilla ice cream from the fresh milk from J3 Farms.,5.99,/img/products/FRO-01.png
+FRO-02,Chocolate Ice Cream,Frozen,J3 Farms,Freshly made chocolate ice cream from the fresh milk from J3 Farms.,5.99,/img/products/FRO-02.png
+FRO-03,Ice,Frozen,J3 Farms,Freshly frozen ice from the waters of Poseidon.,5.99,/img/products/FRO-03.png
+FRO-04,Pepperoni Pizza,Frozen,J3 Farms,Frozen pepperoni pizza from J3 Farms.,6.99,/img/products/FRO-04.png
+

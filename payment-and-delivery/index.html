@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Payment and Delivery - J3 Groceries</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="../commonStyle.css">
+		<link rel="stylesheet" type="text/css" href="../infoPagesStyle.css">
+		<link rel="shortcut icon" type="image/x-icon" href="../img/icon.png" />
+		<script type="text/javascript" src="../readInventory.js"></script>
+		<script type="text/javascript" src="../search.js"></script>
+		<script type="text/javascript" src="../shoppingCart.js"></script>
+		<script type="text/javascript" src="../populateItems.js"></script>
+	</head>
+	<body onload="checkInventoryLoaded(); populateBrowseDropdowns(); loadCart();">
+		<!-- ================================== [START] Fixed Position Bar ================================== -->
+		<div id="fixedPositionBar">
+			<!-- ================================== Top Bar ================================== -->
+			<header id="topBar">
+				<table id="topBarTable">
+					<tr>
+						<td>
+							<div class="topBarElement">
+								<a href="../store/index.html">
+									<img src="../img/logo.png" alt="J3 Groceries" class="topBarLogo">
+								</a>
+							</div>
+						</td>
+						<td>
+							<div class="topBarElement">
+								<form name="searchBar" action="../search/index.html" method="GET" id="searchBar">
+									<input type="search" name="query" placeholder="I'm looking for..." autocomplete="off" required>
+									<input type="submit" value="">
+								</form>
+							</div>
+						</td>
+						<td>
+							<div class="topBarElement" id="shoppingCart">
+								<a href="../shopping-cart/index.html">
+									<img src="../img/cart.png" alt="Shopping Cart" class="shoppingCartIcon">
+									<span id="cartContents">0 ITEMS - $0.00</span>
+								</a>
+								<div id="cartDropdownArrow"></div>
+								<div id="cartDropdown">
+									<div id="cartDropdownContent">
+										<div id="itemAdded">
+											The item has been added to your cart.
+										</div><br>
+										<button class="viewFullCartButton" onclick="location.href='../shopping-cart/index.html'">View Full Cart</button>
+										<table id="cartDropdownContentTable">
+											<tr>
+												<td id="cartDropdownTablePicture"><img src="../img/products/FRU-01.png" alt="Product Image" class="cartDropdownPicture"></td>
+												<td id="cartDropdownTableItem">Red Delicious Apples (pack of 10)<br><span class="cartDropdownItemPrice">$4.99</span></td>
+												<td id="cartDropdownTableQuantity">1</td>
+												<td id="cartDropdownTableTotalPrice">$4.99</td>
+											</tr>
+										</table>
+									</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</header>
+			<!-- ================================== Browse Dropdown Menu ================================== -->
+			<nav id="dropdownContainer">
+				<div id="browseBy">
+					Browse By:
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">Category</button><img src="../img/arrow.png" alt="▼" class="arrowIcon">
+					<div class="dropdown-content" id="categoryDropdown">
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">Manufacturer</button><img src="../img/arrow.png" alt="▼" class="arrowIcon">
+					<div class="dropdown-content" id="manufacturerDropdown">
+					</div>
+				</div>
+			</nav>
+		<!-- ================================== [END] Fixed Position Bar ================================== -->
+		</div>
+		<!-- ================================== Content ================================== -->
+		<div class="allContent">
+			<h1>PAYMENT & DELIVERIES</h1>
+			<div class="content">
+				<h2>Here to make your day a little bit easier</h2>
+				<p> 
+					Here at J3 Groceries, we strive to make your daily life a little bit easier. Quick and efficient deliveries straight to your front door with no awkward checkout lines and no need to lug pounds of groceries back home. Just sit back and enjoy your day. We'll take care of that for you.
+				</p>
+				<h2>Payment Options</h2>
+				<p> 
+					The best thing about shopping online is that everything is online. No need to walk around the aisles, no need to awkwardly count your pounds of change at the cash register, and best of all, no more human interactions. We offer a large variety of payment options, including VISA, MasterCard, Paypal, and American Express.
+				</p>
+				<h2>Coupons and Waivers</h2>
+				<p>
+					What's better than shopping online? Shopping online for cheap! At J3 Groceries, we try to give our customers economical prices without sacrificing quality. That's why here at J3 Groceries we offer monthly promotions on select items. Note that the use of coupons is limited to one per purchase and only on items over $150. 
+				</p>
+				<h2>How items are priced</h2>
+				<p> 
+					Item prices are determined by a large number of *variables* (haha variables), including the availability, quantity, and weight of the product. For more information on how we price our items, you can contact our customer support team <a href="../contact-us/index.html">here</a>.
+				</p>
+			</div>
+		</div>
+		<!-- ================================== Footer ================================== -->
+		<footer id="footer">
+			<table id="footerMainTable">
+				<tr>
+					<th>About Us</th>
+					<th>Customer Service</th>
+					<th class="mainTableLastColumnItem">Follow Us</th>
+				</tr>
+				<tr>
+					<td><a href="../how-it-works/index.html">How It Works</a></td>
+					<td><a href="../faq/index.html">FAQ</a></td>
+					<td class="mainTableLastColumnItem"><a href="http://facebook.com/J3Groceries" target="_blank">Facebook</a></td>
+				</tr>
+				<tr>
+					<td><a href="../who-we-are/index.html">Who We Are</a></td>
+					<td><a href="../freshness-guarantee/index.html">Freshness Guarantee</a></td>
+					<td class="mainTableLastColumnItem"><a href="http://twitter.com/J3Groceries" target="_blank">Twitter</a></td>
+				</tr>
+				<tr>
+					<td><a href="../careers-jobs/index.html">Careers/Jobs</a></td>
+					<td><a href="../satisfaction-guarantee/index.html">Satisfaction Guarantee</a></td>
+					<td class="mainTableLastColumnItem"><a href="http://pinterest.com/J3Groceries" target="_blank">Pinterest</a></td>
+				</tr>
+				<tr>
+					<td><a href="../contact-us/index.html">Contact Us</a></td>
+					<td><a href="../payment-and-delivery/index.html">Payment and Delivery</a></td>
+					<td class="mainTableLastColumnItem"><a href="https://www.youtube.com/channel/UC3SO27LyXmVGulWfUa0HMjA" target="_blank">YouTube</a></td>
+				</tr>
+				<tr>
+					<td><a href="../returns-and-exchanges/index.html">Returns and Exchanges</a></td>
+					<td><a href="../contact-us/index.html">Contact Us</a></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td><a href="../suggest-a-product/index.html">Suggest a Product</a></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+			<table id="footerPolicyTable">
+				<tr>
+					<td class="policyTableItem"><a href="../privacy-policy/index.html">Privacy Policy</a></td>
+					<td class="policyTableItem"><a href="../terms-of-service/index.html">Terms of Service</a></td>
+					<td class="policyTableLastColumnItem policyTableItem"><a href="../accessibility-policy/index.html">Accessibility Policy</a></td>
+				</tr>
+			</table>
+			<div id="footerCopyright">
+				© 2017 J3 GROCERIES INC. ALL RIGHTS RESERVED.
+			</div>
+			<div id="footerLogoDiv">
+				<a href="../store/index.html">
+					<img src="../img/logo.png" alt="J3 Groceries" id="footerLogo">
+				</a>
+			</div>
+		</footer>
+	</body>
+</html>
